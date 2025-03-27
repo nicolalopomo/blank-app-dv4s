@@ -1,5 +1,12 @@
 import streamlit as st
 
+
+st.set_page_config(
+    page_title="My application for DV4S",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 st.title("🎈 My new application for DV4S!")
 
 st.write(
